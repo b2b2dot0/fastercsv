@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'rake', '0.8.7'
+gem 'rake'
+gem 'rdoc'
