@@ -1,10 +1,10 @@
-"!https://api.travis-ci.org/b2b2dot0/fastercsv.png!":https://travis-ci.org/b2b2dot0/fastercsv
+[![Build Status](https://travis-ci.org/b2b2dot0/fastercsv.png)](https://travis-ci.org/b2b2dot0/fastercsv)
 
-= Read Me
+# Read Me
 
 by James Edward Gray II
 
-== Description
+## Description
 
 Welcome to FasterCSV.
 
@@ -20,11 +20,11 @@ good this one won't suit you.  I did try to defer to that interface whenever I
 didn't have a compelling reason to change it though, so hopefully this won't be
 too radically different.
 
-== What's Different From CSV?
+## What's Different From CSV?
 
 I'm sure I'll miss something, but I'll try to mention most of the major differences I am aware of, to help others quickly get up to speed:
 
-=== CSV Parsing
+### CSV Parsing
 
 * FasterCSV has a stricter parser and will throw MalformedCSVErrors on
   problematic data.
@@ -33,7 +33,7 @@ I'm sure I'll miss something, but I'll try to mention most of the major differen
 * CSV returns empty lines as <tt>[nil]</tt>.  FasterCSV calls them <tt>[]</tt>.
 * FasterCSV has a much faster parser.
 
-=== Interface
+### Interface
 
 * FasterCSV uses Hash-style parameters to set options.
 * FasterCSV does not have generate_row() or parse_row() from CSV.
@@ -49,15 +49,15 @@ I'm sure I'll miss something, but I'll try to mention most of the major differen
 
 If you use this library and find yourself missing any functionality I have trimmed, please {let me know}[mailto:james@grayproductions.net].
 
-== Documentation
+## Documentation
 
 See FasterCSV for documentation.
 
-== Installing
+## Installing
 
 See the INSTALL file for instructions.
 
-== What is CSV, really?
+## What is CSV, really?
 
 FasterCSV maintains a pretty strict definition of CSV taken directly from {the RFC}[http://www.ietf.org/rfc/rfc4180.txt].  I relax the rules in only one place and that is to make using this library easier.  FasterCSV will parse all valid CSV.
 
@@ -67,7 +67,7 @@ Luckily, when working with invalid CSV, Ruby's built-in methods will almost alwa
 
   data.split(",")
 
-== Questions and/or Comments
+## Questions and/or Comments
 
 Feel free to email {James Edward Gray II}[mailto:james@grayproductions.net] with
 any questions.
