@@ -1,7 +1,10 @@
 = Change Log
 
 Below is a complete listing of changes for each revision of FasterCSV.
-
+== 1.4.1
+* Added option to use a Byte Order Marker. The option is :bom and it's value
+  should be the marker you wish to use.
+	
 == 1.4.0
 
 * Added encoding support patch from Michael Reinsch.
